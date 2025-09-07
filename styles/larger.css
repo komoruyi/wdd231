@@ -1,0 +1,46 @@
+@media only screen and (min-width: 38rem) {
+    .hamburger {
+        display: none;
+    }
+
+    header {
+        grid-template-columns: 24px auto;
+    }
+
+    .navigation {
+        display: block;
+        width: 100%;
+        
+    }
+
+    nav ul li{
+        padding: 1rem;
+        
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    #courses-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.cert{
+    width: 200px;
+}
+
+.aside-area {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 2rem;
+}
+
+.about{
+    grid-column: 1 / span 3;
+}
+    
+}

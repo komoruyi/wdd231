@@ -1,0 +1,211 @@
+:root{
+    --primary-color: #DEDE64;
+    --secodary-color: #A4A549;
+    --background-color: #1D1524;
+    --text-color: #fff;
+    --font-family: "Oranienbaum", serif;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+
+body, html {
+    width: 100%;
+    height: auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 24px auto 100px;
+    align-items: end;
+    border-bottom: var(--secodary-color);
+    padding: 5px 0 5px 10px;
+    column-gap: 8px;
+}
+
+dialog {
+  width: 400px;
+  height: 300px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+  padding: 20px;
+}
+::backdrop {
+  background-color: rgb(0 0 0 / 50%);
+}
+dialog button {
+  position: absolute;
+  top: 23px;
+  right: 23px;
+  padding: .5rem 1rem;
+  border: 1px solid rgb(0 0 0 / 10%);
+}
+
+svg{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom: 3px;
+}
+
+nav{
+    width: 100%;
+    background-color: var(--background-color);
+    position: sticky;
+}
+
+header span{
+    font-size: 1.2rem;
+    color: var(--background-color);
+}
+.hamburger{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.hamburger::before{
+    content: "\2630";
+    font-size: 2rem;
+    color: var(--background-color);
+}
+
+.hamburger.show::before{
+    content: "\00D7";
+    font-size: 2rem;
+    color: var(--background-color);
+}
+
+.navigation {
+  display: none;
+}
+
+.navigation.show {
+  display: block;
+}
+
+nav a{
+        padding-left: 14px;
+        text-decoration: none;
+        color: var(--text-color);
+    }
+
+nav ul {
+        list-style: none;
+    }
+nav ul li {
+    width: 100%;
+    background-color: var(--background-color);
+    margin-bottom: 0.5rem;
+}
+
+nav ul li:hover{
+    background-color: #5a4969;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    padding: 10px;
+}
+
+section h2{
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    text-align: center;
+
+}
+
+section img{
+    width: 80%;
+    border-radius: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cert {
+  margin-top: 8px;    /* Space above each button */
+  margin-bottom: 8px; /* Space below each button */
+}
+.cert1{
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;   /* centers items horizontally */
+    align-items: center; 
+    
+}
+
+
+button{
+    border: none;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    width: 108px;
+    height: 40px;
+}
+
+#courses-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.course-card {
+  border: 1px solid var(--secodary-color);
+  padding: 1rem;
+  border-radius: 8px;
+  width: 300px;
+  background: #f9f9f9;
+  margin-top: 20px;
+}
+
+
+.course-card.completed {
+  border-color: #4caf50;
+  background: #e8f5e9;
+}
+.course-card.not-completed {
+  border-color: #f44336;
+  background: #ffebee;
+}
+.status {
+  font-weight: bold;
+}
+
+footer{
+    background-color: var(--primary-color);
+}
+/* Add this to your CSS file */
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+a.active, nav a[aria-current="page"]{
+    color: var(--primary-color);
+}
+
+nav a:focus {
+    outline: 2px solid var(--primary-color, #1D1524);
+    outline-offset: 2px;
+}
+
+.about, .photo {
+    background-color: #fdfdd8;
+    padding-top: 0%;
+}
+
+.aside-area {
+    row-gap: 2rem;
+}
