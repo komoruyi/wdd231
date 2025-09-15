@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Acme Innovations",
+        "address": "123 Tech Lane, Cityville, CA 90210",
+        "phone": "(555) 111-2222",
+        "website": "https://www.acmeinnovations.com",
+        "image": "images/site-header.webp",
+        "membershipLevel": "Bronze",
+        "description": "Leading the way in sustainable technology solutions."
+    },
+    {
+        "name": "Green Thumb Landscaping",
+        "address": "456 Garden Path, Cityville, CA 90210",
+        "phone": "(555) 333-4444",
+        "website": "https://www.greenthumb.com",
+        "image": "images/site-header.webp",
+        "membershipLevel": "Silver",
+        "description": "Creating beautiful outdoor spaces since 2005."
+    },
+    {
+        "name": "D'Laurels",
+        "address": "Accra, Ghana",
+        "phone": "(+233) ) 053-345-567",
+        "website": "https://www.dlaurels.com",
+        "image": "images/my-love.webp",
+        "membershipLevel": "Gold",
+        "description": "Providing solutions with tech."
+    },
+    {
+        "name": "California Fitness GYM",
+        "address": "5 spintex Road, Accra, Ghana.",
+        "phone": "(233) 055-3998-568",
+        "website": "http://www.californiafitnessgh.com/about-us/",
+        "image": "images/site-header.webp",
+        "membershipLevel": "Bronze",
+        "description": "Your premier destination for health and wellness."
+    },
+    {
+        "name": "Daniel Ifeanyi Foundation",
+        "address": "Adenta, Ghana",
+        "phone": "(233) 059-0006-80",
+        "website": "https://www.danielifeanyifoundation.net",
+        "image": "images/my-love.webp",
+        "membershipLevel": "Silver",
+        "description": "Our goal is to give hope to the hopeless."
+    },
+    {
+        "name": "Daniels Solutions IT",
+        "address": "333 Cyber Road, Cityville, CA 90210",
+        "phone": "(555) 123-4567",
+        "website": "https://www.securesolutions.com",
+        "image": "images/my-love.webp",
+        "membershipLevel": "Gold",
+        "description": "Reliable IT support and cybersecurity services."
+    },
+    {
+        "name": "The Book Nook",
+        "address": "444 Story Lane, Cityville, CA 90210",
+        "phone": "(555) 234-5678",
+        "website": "https://www.thebooknook.org",
+        "image": "images/site-header.webp",
+        "membershipLevel": "Gold",
+        "description": "A cozy independent bookstore with a wide selection."
+    }
+]
