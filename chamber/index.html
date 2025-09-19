@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omoruyi Osaohenmwanta kenneth - WDD 231 - Accra Chamber of Commerce Home</title>
+    <meta name="description" content="Home page for Accra Chamber of Commerce. Find local businesses and services.">
+    <meta name="author" content="Kenneth Osaohenmwanta Omoruyi">
+
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <meta property="og:title" content=" Accra Chamber of Commerce">
+    <meta property="og:description" content="Explore our Home page of local businesses and members of the Accra Chamber of Commerce.">
+    <meta property="og:image" content="images/favicon_io.zip">
+    <meta property="og:url" content="https://komoruyi.github.io/wdd231/chamber/index.html">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="styles/directory.css">
+    <link rel="stylesheet" href="styles/directory-large.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <script src="scripts/directory.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="index.html" class="logo-link">
+                <img src="images/camera-solid.svg" alt="Chamber of Commerce Logo" class="logo">
+                <h1>Accra Chamber of Commerce</h1>
+            </a>
+            <nav>
+                <button id="ham-btn" class="hamburger"></button>
+                <ul class="navigation" id="mainNav">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="join.html">Join</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="home-main">
+        <section class="hero-section">
+            <picture>
+                <source srcset="images/accra.webp" media="(min-width: 1000px)">
+                <source srcset="images/accra.webp" media="(min-width: 600px)">
+                <img src="images/accra.webp" alt="Cityscape at sunset" class="hero-image">
+            </picture>
+            <div class="hero-text">
+                <h2>Accra Chamber of Commerce</h2>
+                <p>Supporting local businesses and fostering growth.</p>
+                <a href="join.html" class="cta-button">Join the Chamber!</a>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="events-section">
+            <h2>Upcoming Events</h2>
+            <article class="event-card">
+                <h3>Annual Business Expo</h3>
+                <p><strong>Date:</strong> September 22, 2025</p>
+                <p><strong>Time:</strong> 10:00 AM - 4:00 PM</p>
+                <p>Join us for our biggest event of the year! Network with local businesses and discover new opportunities. Free for members, $25 for non-members.</p>
+            </article>
+            <article class="event-card">
+                <h3>Monthly Networking Luncheon</h3>
+                <p><strong>Date:</strong> Septemebr 25, 2025</p>
+                <p><strong>Time:</strong> 12:00 PM - 1:30 PM</p>
+                <p>Connect with fellow business owners over lunch. This month's topic: "Leveraging Social Media for Local Growth."</p>
+            </article>
+        </section>
+
+        <hr>
+
+        <section class="weather-section">
+            <h2>Local Weather</h2>
+            <div class="weather-data">
+                <p><strong>Current Temperature:</strong> <span id="current-temp">--</span>°C</p>
+                <p><strong>Description:</strong> <span id="weather-desc">--</span></p>
+                <div class="forecast-container" id="forecast-container">
+                    <h3>3-Day Forecast:</h3>
+                    </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="spotlights-section">
+            <h2>Member Spotlights</h2>
+            <div class="spotlight-grid" id="spotlight-grid">
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <p>&copy; <span id="currentYear"></span> Omoruyi Osaohenmwanta kenneth | Accra Chamber of Commerce| WDD 231 Project</p>
+                <p>Last Modified: <span id="lastModified"></span></p>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/index.js"></script>
+</body>
+</html>

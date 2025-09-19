@@ -1,0 +1,291 @@
+/* directory-large.css */
+/* Larger screen styles for Accra Chamber of Commerce Home Page */
+
+body {
+    font-family: 'Roboto', 'Open Sans', Arial, sans-serif;
+    background: #f8f9fa;
+    margin: 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 48px;
+    background: #14375d;
+    color: #fff;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 24px;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.hamburger {
+    display: none;
+}
+
+.navigation {
+    display: flex;
+    gap: 36px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 10px 22px;
+    border-radius: 6px;
+    transition: background 0.2s;
+}
+
+.navigation li a.active,
+.navigation li a:hover {
+    background: #eab308;
+    color: #14375d;
+}
+
+.home-main {
+    max-width: 1200px;
+    margin: 36px auto;
+    padding: 0 32px;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 48px;
+    background: #fff;
+    padding: 48px 40px;
+    border-radius: 18px;
+    box-shadow: 0 2px 12px rgba(20,55,93,.09);
+}
+
+.hero-section picture, .hero-image {
+    flex: 1 1 50%;
+    max-width: 520px;
+    height: auto;
+    border-radius: 14px;
+    box-shadow: 0 2px 12px rgba(20,55,93,.13);
+}
+
+.hero-text {
+    flex: 1 1 50%;
+    text-align: left;
+}
+
+.hero-text h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #14375d;
+    margin-bottom: 12px;
+}
+
+.hero-text p {
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 22px;
+}
+
+.cta-button {
+    display: inline-block;
+    background: #eab308;
+    color: #14375d;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 14px 40px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.2s;
+    box-shadow: 0 2px 8px rgba(20,55,93,.08);
+}
+
+.cta-button:hover {
+    background: #14375d;
+    color: #eab308;
+}
+
+hr {
+    margin: 50px 0;
+    border: none;
+    border-top: 2px solid #eab308;
+}
+
+.events-section {
+    background: #fff;
+    border-radius: 16px;
+    margin-bottom: 40px;
+    padding: 36px 44px;
+    box-shadow: 0 2px 12px rgba(20,55,93,.08);
+}
+
+.events-section h2 {
+    font-size: 2.1rem;
+    color: #14375d;
+    margin-bottom: 28px;
+}
+
+.event-card {
+    margin-bottom: 24px;
+    padding: 24px 32px;
+    border-left: 6px solid #eab308;
+    background: #f7f7ff;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgba(20,55,93,.06);
+}
+
+.event-card h3 {
+    font-size: 1.5rem;
+    color: #14375d;
+    margin-bottom: 10px;
+}
+
+.weather-section {
+    background: #fff;
+    border-radius: 16px;
+    margin-bottom: 40px;
+    padding: 34px 44px;
+    box-shadow: 0 2px 12px rgba(20,55,93,.08);
+}
+
+.weather-section h2 {
+    font-size: 2rem;
+    color: #14375d;
+    margin-bottom: 22px;
+}
+
+.weather-data {
+    font-size: 1.25rem;
+    color: #222;
+}
+
+.forecast-container {
+    margin-top: 16px;
+    padding-left: 10px;
+}
+
+.spotlights-section {
+    background: #fff;
+    border-radius: 16px;
+    margin-bottom: 40px;
+    padding: 34px 44px;
+    box-shadow: 0 2px 12px rgba(20,55,93,.08);
+}
+
+.spotlights-section h2 {
+    font-size: 2rem;
+    color: #14375d;
+    margin-bottom: 20px;
+}
+
+.spotlight-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+
+.spotlight-card {
+    background: #f7f7ff;
+    border-radius: 10px;
+    padding: 22px 18px;
+    box-shadow: 0 1px 8px rgba(20,55,93,.09);
+    text-align: center;
+}
+
+.spotlight-card h4 {
+    font-size: 1.3rem;
+    color: #14375d;
+    margin-bottom: 8px;
+}
+
+.spotlight-card p {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+footer {
+    background: #14375d;
+    color: #fff;
+    padding: 34px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer-info p {
+    font-size: 1.15rem;
+    margin: 0;
+}
+
+@media (max-width: 1000px) {
+    .home-main {
+        padding: 0 16px;
+    }
+    .hero-section {
+        flex-direction: column;
+        padding: 32px 16px;
+        gap: 24px;
+    }
+    .spotlight-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    .events-section, .weather-section, .spotlights-section {
+        padding: 24px 16px;
+    }
+}
+
+@media (max-width: 700px) {
+    .header-content {
+        flex-direction: column;
+        padding: 18px 8px;
+    }
+    .logo {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+    header h1 {
+        font-size: 1.7rem;
+    }
+    .navigation {
+        gap: 14px;
+    }
+    .spotlight-grid {
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+    .home-main {
+        margin: 16px auto;
+    }
+}
