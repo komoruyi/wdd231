@@ -1,0 +1,19 @@
+@media (min-width: 32rem) {
+    .join-container {
+        flex-direction: row; /* Side-by-side on larger screens */
+        align-items: flex-start; /* Align content to the top */
+    }
+
+    .membership-cards {
+        grid-template-columns: 1fr 1fr; /* Two columns for cards */
+        flex: 1; /* Allow cards to take available space on the right */
+    }
+
+    .card {
+        padding: 1.8rem;
+    }
+
+    .modal-content {
+        width: 80%; /* Wider modal on larger screens */
+    }
+}

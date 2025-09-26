@@ -1,0 +1,76 @@
+@media only screen and (min-width: 32rem) {
+    .header-content {
+        flex-wrap: nowrap;
+    }
+
+    .logo {
+        height: 70px;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    .navigation {
+        justify-content: space-evenly;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .navigation {
+        display: flex; 
+    }
+
+    .hero-text h2 {
+        font-size: 3.5em;
+    }
+
+    .hero-text p {
+        font-size: 1.5em;
+    }
+    .home-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+            "hero hero hero"
+            "events weather ."
+            "spotlight spotlight spotlight";
+        gap: 1.5rem;
+    }
+
+    .hero-section {
+        grid-area: hero;
+    }
+
+    .events-section {
+        grid-area: events;
+    }
+
+    .weather-section {
+        grid-area: weather;
+    }
+
+    .spotlights-section {
+        grid-area: spotlight;
+        grid-column: 1 / span 3; /* Span all columns */
+    }
+
+    .spotlight-grid {
+        grid-template-columns: repeat(3, 1fr); /* Three columns for spotlights */
+    }
+    
+    .places-sect{
+        width: 100%;
+    }
+
+    .places div{
+    grid-template-areas: 
+    "photo name"
+    "photo description"
+    "photo address"
+    "photo button"
+    ;
+}
+}
