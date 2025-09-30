@@ -1,0 +1,50 @@
+ [
+  {
+    "name": "Ga Accra palace in accra",
+    "address": "HQGC+G9P, Palace St, Accra, Ghana.",
+    "description": "The traditional home of the Ga Kingdom in Accra King, the revered monarch of the ghana people. The palace showcases beautiful architecture and offers insight into the city's rich history and culture. Visitors might catch a traditional ceremony or festival.",
+    "photo": "images/image1.webp"
+  },
+  {
+    "name": "Adenta Madina Market",
+    "address": "La Nkwantanang Madina Municipal District, a district in the Greater Accra Region of southeastern, Ghana.",
+    "description": "A lively marketplace where locals buy fresh produce, clothes, crafts, and more. It offers an authentic local experience with vibrant colors, enticing smells, and friendly haggling. It's a great spot to pick up souvenirs or just enjoy the lively atmosphere.",
+    "photo": "images/image2.webp"
+  },
+  {
+    "name": "Accra Sport Stadium",
+    "address": "1272 Starlets 91 Rd, Accra, Ghana.",
+    "description": "A multi-purpose stadium primarily used for football matches and the home ground for Warri Wolves F.C. It's a hub for local sports enthusiasts, and attending a game here allows you to experience the passion Warri residents have for football. It also has international standard track and field facilities.",
+    "photo": "images/images2.webp"
+  },
+  {
+    "name": "Labadi Beach",
+    "address": "1 La Bypass, Accra, Greater Accra Region, Ghana.",
+    "description": "Offers a peaceful spot to relax, enjoy the sunset, and take in the scenic views of the Niger Delta waters. It's a lovely spot for picnics or a quiet afternoon, providing an escape from the city's hustle.",
+    "photo": "images/image3.webp"
+  },
+  {
+    "name": "National Museum Of Ghana",
+    "address": "HQ5V+MC5, Accra, Ghana.",
+    "description": "This small but informative museum tells the story of the Itsekiri people, who are native to the Warri area. Exhibits include traditional artifacts, clothing, and historical displays that give visitors a deeper understanding of the city's roots.",
+    "photo": "images/image4.webp"
+  },
+  {
+    "name": "Memory Lane Art Park",
+    "address": "Casely Hayford Street, Accra, Ghana.",
+    "description": "living history museum, And memory of the past always in heart.",
+    "photo": "images/image5.webp"
+  },
+    {
+        "name": "Kwame Nkrumah Mausoleum",
+        "address": "GQWX + JWV, Prof.Atta Mills High St, Accra, Ghana.",
+        "description": "A significant historical site dedicated to Kwame Nkrumah, Ghana's first president and a key figure in the country's independence movement. The mausoleum is set in a beautiful park and features statues, murals, and exhibits about Nkrumah's life and legacy.",
+        "photo": "images/image6.webp"
+    },
+  {
+    "name": "Accra Mall",
+    "address": "Plot C11 Tetteh Quarshie Interchange, Spintex Rd, Nkran.",
+    "description": "The city's center shopping mall, offering a contemporary shopping experience with both international brands and local products in an air-conditioned environment. It's a place to find gifts and enjoy food courts.",
+    "photo": "images/image7.webp"
+  }
+]
