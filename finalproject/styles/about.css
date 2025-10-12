@@ -1,0 +1,177 @@
+:root{
+    --primary-color: #001327;
+    --secondary-color:#F7F7F7;
+    --accent1: #037906;
+    --accent2:  #ffd700;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.header-content {
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
+        border: var(--primary-color);
+    }
+
+.icon{
+        display: flex;
+        justify-content: space-between;
+}
+    .logo{
+        width: 7rem;
+    }
+
+    .hamburger {
+        border: none;
+        padding: 1rem;
+        background: none;
+        cursor: pointer;
+        top: 15px;
+        right: 20px;
+        color: var(--primary-color);
+    }
+
+.hamburger::before{
+    content: "\2630";
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.hamburger.show::before{
+    content: "\00D7";
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.navigation {
+  display: none;
+}
+
+ .navigation.show {
+  display: block;
+}
+
+nav a{
+        padding-left: 14px;
+        text-decoration: none;
+        color: var(--primary-color);
+    }
+
+nav ul li{
+        list-style: none;
+        padding: 1rem;
+    }
+.navigation a.active,
+.navigation a:hover {
+    color: var(--accent1);
+}
+
+.navigation a.active {
+    font-weight: bold;
+    border-bottom: 2px solid var(--accent1);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.about-page {
+  max-width: 1200px; /* Limits the page width on large screens */
+  margin: 0 auto;
+  padding: 20px;
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+.about-page section {
+  background-color: #fff;
+  padding: 40px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Soft shadow for depth */
+}
+
+.about-page section h2 {
+  text-align: center;
+  color: var(--accent1); /* A primary blue color for headings */
+  font-size: 2rem;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #e9ecef;
+  padding-bottom: 10px;
+}
+
+.about-page section p {
+  font-size: 1.1rem;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.exe-board {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+/*
+ * Styling for each individual board member's card.
+ */
+.exe-board > div {
+  background-color: #f1f3f5; /* A slightly darker gray for the cards */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Add a subtle hover effect to the cards */
+.exe-board > div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.exe-board img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50px 50px; /* Makes the image a perfect circle */
+  object-fit: cover;
+  border: 4px solid var(--accent1);
+  margin-bottom: 15px;
+}
+
+.exe-board h3 {
+  font-size: 1.5rem;
+  color: #343a40;
+  margin: 0 0 5px 0;
+}
+
+.exe-board h4 {
+  font-size: 1rem;
+  color: var(--primary-color); /* A lighter gray for the title */
+  font-weight: normal;
+  margin: 0;
+}
+footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 1.5rem 2rem;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 20px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}

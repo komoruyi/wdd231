@@ -1,0 +1,31 @@
+@media (min-width: 32rem) {
+    .hamburger {
+        display: none;
+    }
+
+    .header-content{
+        grid-template-columns: 24px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navigation {
+        display: block;
+        width: 100%;
+
+        
+    }
+
+    nav ul li{
+        padding: 1rem;
+        
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        
+    }
+
+}

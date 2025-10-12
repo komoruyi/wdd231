@@ -1,0 +1,56 @@
+[
+    {
+      "type": "Studio Apartment",
+      "details": "A single room that combines the living room, bedroom, and kitchen, with a separate bathroom. They are often the most affordable apartment type.",
+      "price": "Ranges widely based on location and amenities.",
+      "image_url": "images/house1.webp"
+    },
+    {
+      "type": "Loft Apartment",
+      "details": "Typically large, open-concept spaces with high ceilings and large windows, often in former industrial or commercial buildings. They have a distinct look with exposed brick or support beams.",
+      "price": "Generally higher than a standard apartment due to their unique layout and size.",
+      "image_url": "images/house2.webp"
+    },
+    {
+      "type": "Duplex Apartment",
+      "details": "An apartment with two levels, sometimes a converted single-family home. They offer more space and can feel more like a house.",
+      "price": "Varies significantly but is often higher than a one-floor unit due to the extra space.",
+      "image_url": "images/house3.webp"
+    },
+    {
+      "type": "High-Rise Apartment",
+      "details": "Apartments in buildings with more than 12 stories. They are common in urban centers and often offer great views and amenities like elevators and security.",
+      "price": "Typically more expensive, especially on higher floors.",
+      "image_url": "images/house4.webp"
+    },
+    {
+      "type": "Mid-Rise Apartment",
+      "details": "Apartments in buildings with 5 to 11 stories. They usually have an elevator and are a popular option for renters in urban and suburban areas.",
+      "price": "More affordable than high-rise units, but still varies based on location.",
+      "image_url": "images/house5.webp"
+    },
+    {   
+      "type": "Low-Rise Apartment",
+      "details": "An apartment in a building with four or fewer stories. They are often more affordable and may not have an elevator.",
+      "price": "Generally the most budget-friendly of multi-unit buildings.",
+      "image_url": "images/house6.webp"
+    },
+    {
+      "type": "Garden Apartment",
+      "details": "Typically a ground-floor or basement unit with access to a garden or courtyard. They are often found in suburban areas.",
+      "price": "Can be less expensive than upper-floor units due to their location.",
+      "image_url": "images/house7.webp"
+    },
+    {
+      "type": "Penthouse Apartment",
+      "details": "An apartment located on the top floor of a building. They are known for their spectacular views and are typically larger and more expensive than other units in the same building.",
+      "price": "Considerably more expensive than other units in the same building.",
+      "image_url": "images/house8.webp"
+    },
+      {
+      "type": "A Small Luxury Apartment",
+      "details": "An apartment located on the top floor of a building. They are known for their spectacular views and are typically larger and more expensive than other units in the same building.",
+      "price": "Considerably more expensive than other units in the same building.",
+      "image_url": "images/house9.webp"
+    }
+  ]

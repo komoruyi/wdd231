@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List a Property</title>
+</head>
+<body>
+    <main>
+        <section>
+            <div class="tabs-container">
+  <div class="tab-buttons">
+    <button class="tab-button active" onclick="openTab(event, 'createPost')">Create Post</button>
+    <button class="tab-button" onclick="openTab(event, 'myPosts')">My Posts</button>
+  </div>
+
+  <div id="createPost" class="tab-content">
+    <h3>Create a New Post</h3>
+    <form>
+      <label for="post-title">Title:</label>
+      <input type="text" id="post-title" name="post-title"><br><br>
+      <label for="post-content">Content:</label>
+      <textarea id="post-content" name="post-content"></textarea><br><br>
+      <button type="submit">Submit Post</button>
+    </form>
+  </div>
+
+  <div id="myPosts" class="tab-content" style="display:none;">
+    <h3>Your Recent Posts</h3>
+    <p>This is where your list of posts will be displayed.</p>
+  </div>
+</div>
+        </section>
+    </main>
+</body>
+</html>
